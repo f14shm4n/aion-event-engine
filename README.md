@@ -9,3 +9,6 @@ Src:
 - may be missing some EventEngine files in original com.aionemu.gameserver package
 - missing some methods in original com.aionemu.gameserver package, so it your part of work :)
 
+Data pack:
+- all EventHandlers, admin and play command
+
