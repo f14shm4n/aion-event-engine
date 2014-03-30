@@ -1,14 +1,22 @@
 aion-event-engine
 =================
 
-Custom event engine for Aion emulators, can be installed in Aion-Lightning emulator 3.9 without additional modification.
+Custom event engine for Aion emulators.
+
+Fully compatible with Aion-Lightning emulator 3.9.
 
 Src:
-- package pirate full I guess :)
-- may be missing some EventEngine files in original com.aionemu.gameserver package
-- missing some methods in original com.aionemu.gameserver package, so it your part of work :)
+- full event engine sources (package pirate)
+- all original sources with engine integration
 
 Data pack:
-- all EventHandlers, admin and play command
+- InstanceEventHandlers
+- Admincommand, Playercommand
 
-Most comments in src on russian :)
+Contains events:
+- 1x1 (event logic: EventEngine/data/scripts/system/handlers/instance/events/PvPEventHandler.java)
+- 2x2,3x3,4x4,6x6 (event logic EventEngine/data/scripts/system/handlers/instance/events/CommandEventHandler.java)
+- last hero(lhe) (event logic EventEngine/data/scripts/system/handlers/instance/events/LHEventHandler.java)
+- free for all(ffa) (event logic EventEngine/data/scripts/system/handlers/instance/events/FFAEventHandler.java)
+
+Most commentaries in sources on russian lang.
