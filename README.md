@@ -1,5 +1,6 @@
-aion-event-engine
-=================
+# Aion Event Engine
+
+### **[Note: I not support this project, use it "as-is" for your own goals.]**
 
 Custom event engine for Aion emulators.
 
